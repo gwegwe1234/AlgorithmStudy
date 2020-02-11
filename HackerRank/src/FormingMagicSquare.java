@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class FormingMagicSquare {
 
   // Complete the formingMagicSquare function below.
+  // 문제 : https://www.hackerrank.com/challenges/magic-square-forming/problem
   static int formingMagicSquare(int[][] s) {
     int[][][] p = {{{8, 1, 6}, {3, 5, 7}, {4, 9, 2}},
         {{6, 1, 8}, {7, 5, 3}, {2, 9, 4}},
