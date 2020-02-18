@@ -1,3 +1,5 @@
+package easy;
+
 public class MiniMaxSum {
 
   // https://www.hackerrank.com/challenges/mini-max-sum/problem

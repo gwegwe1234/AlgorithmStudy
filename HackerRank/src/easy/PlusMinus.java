@@ -1,3 +1,5 @@
+package easy;
+
 public class PlusMinus {
 
   // 문제 : https://www.hackerrank.com/challenges/plus-minus/problem
