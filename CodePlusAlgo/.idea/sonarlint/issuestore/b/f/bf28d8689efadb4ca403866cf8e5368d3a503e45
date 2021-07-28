@@ -1,0 +1,16 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢“‘÷øÿÿÿÿ
+S
+java:S1197	"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+J
+java:S6212
+"/Declare this local variable with "var" instead.(ğÛ²¸øÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(ìÊüÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(¸şõöúÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(¸şõöúÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(Ô‚¡®üÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(º‘‡èùÿÿÿÿ

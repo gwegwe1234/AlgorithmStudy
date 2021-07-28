@@ -1,0 +1,17 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—ÜõÈ8Âý“¼ª/
+j
+java:S2259"MA "NullPointerException" could be thrown; "beforeCharacter" is nullable here.(¾àÔâ8Ãý“¼ª/
+r
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒýÿÿÿÿ8Åý“¼ª/
+Ž
+java:S1130	"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(²Á€œüÿÿÿÿ8„åÝ¼ª/
+Z
+java:S1197	"8Move the array designator from the variable to the type.(²Á€œüÿÿÿÿ8Æý“¼ª/
+Q
+java:S6212"/Declare this local variable with "var" instead.(ðÛ²¸øÿÿÿÿ8€íÜ¼ª/
+Q
+java:S6212"/Declare this local variable with "var" instead.(Ó°¬Ñøÿÿÿÿ8Éý“¼ª/
+K
+java:S6212"/Declare this local variable with "var" instead.(¦®Ð`8Êý“¼ª/
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(®ýáëûÿÿÿÿ8ŠåÝ¼ª/

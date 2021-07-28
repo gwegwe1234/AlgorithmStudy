@@ -1,0 +1,23 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(İ˜üğ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢“‘÷øÿÿÿÿ
+?
+java:S5411#"*Use the primitive boolean expression here.(Ò«õR
+f
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(İ˜üğ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(²Á€œüÿÿÿÿ
+S
+java:S1197"8Move the array designator from the variable to the type.(²Á€œüÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(ßÅÍ”
+E
+java:S6212"/Declare this local variable with "var" instead.(ûÄÏ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ûÄÏ
+O
+java:S2130"9Use "Integer.parseInt" for this string-to-int conversion.(‹Ò¢Õ
+J
+java:S6212"/Declare this local variable with "var" instead.(é®çøÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(Ñ¾ş™şÿÿÿÿ
