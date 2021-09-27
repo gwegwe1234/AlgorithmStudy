@@ -10,12 +10,15 @@ public class GymSuit {
   public int solution(int n, int[] lost, int[] reserve) {
     int answer = n - lost.length;
 
-    List<Integer> reserveList = Arrays.stream(reserve).boxed().collect(Collectors.toList());
+    Arrays.sort(lost);
+    Arrays.sort(reserve);
+
     List<Integer> lostList = Arrays.stream(lost).boxed().collect(Collectors.toList());
+    List<Integer> reserveList = Arrays.stream(reserve).boxed().collect(Collectors.toList());
 
     for (int i = 0; i < lostList.size(); i++) {
       if (reserveList.contains(lostList.get(i))) {
-        reserveList.remove(new Integer(lostList.get(i)));
+        reserveList.remove(Integer.valueOf(lostList.get(i)));
         lostList.set(i, -1);
         answer++;
       }
@@ -23,10 +26,10 @@ public class GymSuit {
 
     for (int lostOne : lostList) {
       if (reserveList.contains(lostOne - 1)) {
-        reserveList.remove(new Integer(lostOne - 1));
+        reserveList.remove(Integer.valueOf(lostOne - 1));
         answer++;
       } else if (reserveList.contains(lostOne + 1)) {
-        reserveList.remove(new Integer(lostOne + 1));
+        reserveList.remove(Integer.valueOf(lostOne + 1));
         answer++;
       }
     }
@@ -34,3 +37,5 @@ public class GymSuit {
     return answer;
   }
 }
+
+
