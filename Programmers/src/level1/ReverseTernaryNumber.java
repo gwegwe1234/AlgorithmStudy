@@ -28,4 +28,17 @@ public class ReverseTernaryNumber {
 
     return answer;
   }
+
+  // 다른 사람 풀이
+
+  public int solution2(int n) {
+    StringBuilder sb = new StringBuilder();
+
+    while (n != 0) {
+      sb.append(n % 3);
+      n = n / 3;
+    }
+
+    return Integer.valueOf(sb.toString(), 3);
+  }
 }
